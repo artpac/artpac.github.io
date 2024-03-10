@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+    display:flex ;
+    flex-direction: column;
+
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Top{
+    height: 1080px;;
+    width:auto;
+    background-size: cover;
+
+    padding-top: 5px;
+    padding-left:20px;
+}
+#Top h2{
+
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.7) ;
+    backdrop-filter: blur(1px);
+    
+}
+
+
+h1{
+    display: inline-block;
+}
+
+.split {
+    width:50%
+}
+
+#photography, #travel{
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+#choice li{
+    border-right: 2px solid black;
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+}
+#choice a{
+    padding:8px;
+}
+#choice li:last-child{
+    border-right: none;
+}
+#highlight a{
+    color: white;
+}
+
+a:hover{
+    color:white;
+}
+
+/*Start of navbar styling */
+#navbar{
+    padding-top:20px;
+    display: inline-block;
+    float: right;
+    overflow:hidden;
+    margin-right: 20px;
+}
+#navbar li {
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    border-right: 2px solid black;
+}
+#navbar li:first-child{
+    border-right: none;
+}
+#navbar a{
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+}
+#navbar li a:hover {
+    color: white;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+/*End of navbar Styling */
+
