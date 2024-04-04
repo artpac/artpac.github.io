@@ -3,14 +3,16 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
         <title>ARTPAC2050 TRAVEL</title>
 
 
         <style>
             #Top{
-                background-image: url('Photos/Poland/BabiaGora/DSC_1499-Pano.jpg'); 
+                background-image: url('Photos/UK/Pitlochry/DSC_6353.jpg'); 
             }
         </style>
+
     </head>
 
     <body>
@@ -93,15 +95,36 @@
             Neque accusantium quas iure, dolor nisi officiis enim vel, suscipit repellendus doloremque quae soluta! Culpa laudantium voluptatem maxime soluta officiis, odio ipsa veritatis debitis labore fugiat corporis asperiores, modi doloribus!
             Blanditiis adipisci ratione perferendis! Expedita nostrum, sunt porro modi voluptatem vitae sit obcaecati omnis illo quia beatae iste laboriosam impedit dolores ab voluptates tempore velit tempora perferendis repellat autem praesentium.</p>
 
-            <br><br>
+
+            <br><br><br>
             <div id="responsive">
                 <div id="selection">
-                    <a target="_blank" href="uk.hmtl">
+                    <a target="_blank" onclick="displayBox()" onclick="hideBox()">
                         <img src="Photos/UK/Skye/DSC_4075-2.jpg">
-                    <div id="desc">UK</div>
+                        <div id="desc">UK</div>
                     </a>
                 </div>
             </div>
+                <br><div id="ukBox" class="hiddenBox">
+                <br>
+                <div id="responsive">
+                    <div id="selection">
+                        <a target="_blank" href="uk.hmtl/#skye">
+                            <img src="Photos/UK/Skye/DSC_4075-2.jpg">
+                            <div id="desc">Skye</div>
+                        </a>
+                    </div>
+                </div>
+                <div id="responsive">
+                    <div id="selection">
+                        <a target="_blank" href="uk.hmtl/#london">
+                            <img src="Photos/UK/Skye/DSC_4075-2.jpg">
+                            <div id="desc">London</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
 
             <div id="responsive">
                 <div id="selection">
@@ -137,10 +160,11 @@
                     <div id="desc">Denmark</div>
                     </a>
                 </div>
+                <br><br><br><br><br><br>
             </div>
-
+        
         </div>
-        <br><br><br>
+        
 
         <footer>
             <div id="footerLinks">
