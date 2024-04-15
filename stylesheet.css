@@ -65,6 +65,7 @@ h1{
 #choice li:last-child{
     border-right: none;
 }
+
 #highlight a{
     color: white;
 }
