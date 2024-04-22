@@ -3,6 +3,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
         <title>ARTPAC2050 TRAVEL</title>
 
     </head>
@@ -11,21 +12,38 @@
         <header>
             <h1>ARTPAC2050</h1>
         </header>
-
-
-        <div class="split">
-            <div id="photography">
-                <img src="Photos/Berlin/DSC_4585-Edit.jpg">
-                <a href="https://artpac2050.com">Click Here</a>
+        <div class="row">
+            <div id="photography" class="column" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <h2>Photography</h2>
+                <a href = "https://artpac2050.com/">VIEW MORE</a>
             </div>
-            <div id="travel">
-                <img src="Photos/Copenhagen/DSC_2480.jpg">
-                <a href="main.html">Click Here</a>
+            <div id="travel" class="column" onmouseover="zoomIn(this)" onmouseout="zoomOut(this)">
+                <h2>Travel</h2>
+                <a href = "main.html">VIEW MORE</a>
             </div>
         </div>
+
     
 
 
+
+        <footer>
+            <br>
+            <div id="footerLinks">
+                <a href="https://www.linkedin.com/in/artpac2050/"><img src="Logo/linkedinLogo.png"></a>
+                <a href="https://www.facebook.com/artpac2050/"><img src="Logo/facebookLogo.png"></a>
+                <a href="https://www.instagram.com/artpac2050"><img src="Logo/instagramLogo.webp"></a>
+            </div>
+    
+            <div id="footerContact">
+                <a href="mailto:artpac2050@gmail.com">Email: artpac2050@gmail.com</a>
+                <p>
+                <a href="https://wa.me/4407564367843">Phone Number: 07564367843</a>
+            </div>
+    
+    
+    
+        </footer>
     </body>
 
 </html>
