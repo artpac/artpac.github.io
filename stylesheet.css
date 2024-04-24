@@ -16,6 +16,9 @@ body{
     width: 90%;
     margin:0 auto;
     display: block;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 20px;
 
     background-color: #bbb;
 }
@@ -226,3 +229,64 @@ footer{
 }
 /* End of landing page */
 
+/* Country Pages */
+hr{
+    width: 4px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+    overflow: auto;
+    padding-top: 500px;
+}
+.popup img{
+    height: 300px;
+    width: auto;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.popup-content {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+    margin-top: 1000px;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#countryDesc{
+    width: 50%;
+}
+.country{
+    display: inline-block;
+    width: 700px;
+    padding-left:50px;
+    border-top: 2px solid black;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+#countryPhoto{
+    padding-top: 10px;
+    float: right;
+    height: 210px;
+    padding-right: 50px;
+}
